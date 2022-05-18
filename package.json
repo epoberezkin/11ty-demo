@@ -7,7 +7,8 @@
     "build": "eleventy",
     "start": "npx eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch-tailwind": "npx tailwindcss -i ./tailwind.css -o ./_site/css/tailwind.css --watch"
+    "watch-tailwind": "npx tailwindcss -i ./tailwind.css -o ./_site/css/tailwind.css --watch",
+    "build-tailwind": "npx tailwindcss -i ./tailwind.css -o ./_site/css/tailwind.css"
   },
   "keywords": [],
   "author": "",
